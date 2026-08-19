@@ -21,7 +21,6 @@ pipeline {
                 dir('starter') {
                     sh 'mvn -B test'
                 }
-                sh 'mvn -B test'
             }
             post {
                 always {
